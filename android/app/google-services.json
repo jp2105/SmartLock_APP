@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "898144052520",
+    "firebase_url": "https://smart-lock-4e641.firebaseio.com",
+    "project_id": "smart-lock-4e641",
+    "storage_bucket": "smart-lock-4e641.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898144052520:android:e01edb05631252d14bdc1d",
+        "android_client_info": {
+          "package_name": "com.smart_lock_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898144052520-ifajr4eljiikda5kkj7ruaj6e78l8vk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smart_lock_app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "898144052520-766ailm5h9eoaetj3uhjlim0onajpubj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0yA14ce4XWXdas77bcN6F7HCfa9lnMaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898144052520-766ailm5h9eoaetj3uhjlim0onajpubj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "898144052520-981l8e16pk7qjfgp1viidhd78lc88iqv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fgs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
