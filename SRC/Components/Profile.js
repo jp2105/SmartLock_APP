@@ -26,13 +26,18 @@ const Profile = props => {
       </View>
       <View style={styles.bodyView}>
         <Text style={styles.bodyText}>Profile</Text>
-
       </View>
-        <View style={{marginHorizontal:sw*.09}}>
-            <Text style={{fontSize:25}}>Name: {currentUser && currentUser.name}</Text>
-            <Text style={{fontSize:25}}>Phone: {currentUser && currentUser.phone}</Text>
-        <Text style={{fontSize:12,color: 'red'}}>(To manage Profile go to our website.)</Text>
-        </View>
+      <View style={{marginHorizontal: sw * 0.09}}>
+        <Text style={{fontSize: 25}}>
+          Name: {currentUser && currentUser.name}
+        </Text>
+        <Text style={{fontSize: 25}}>
+          Phone: {currentUser && currentUser.phone}
+        </Text>
+        <Text style={{fontSize: 12, color: 'red'}}>
+          (To manage Profile go to our website.)
+        </Text>
+      </View>
       <View
         style={{
           flex: 1,

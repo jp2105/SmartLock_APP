@@ -68,7 +68,7 @@ const Login = props => {
           color={'rgb(25, 118, 210)'}
         />
         <TextInput
-            keyboardType={'number-pad'}
+          keyboardType={'number-pad'}
           style={styles.textInput}
           placeholder={'Phone'}
           returnKeyType={'next'}

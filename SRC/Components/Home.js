@@ -38,7 +38,7 @@ const Home = props => {
         })
         .then(res => {
           AsyncStorage.getItem('user').then(res => {
-            res=JSON.parse(res)
+            res = JSON.parse(res);
             var temp = {
               uid: res.uid,
               name: res.name,
@@ -49,12 +49,11 @@ const Home = props => {
               .collection('logs')
               .doc()
               .set(temp)
-              .then(data => {
-              })
-              .catch(e => alert('something went wrong'););
+              .then(data => {})
+              .catch(e => alert('something went wrong'));
           });
         })
-        .catch(e => alert('something went wrong'););
+        .catch(e => alert('something went wrong'));
     } catch (e) {
       alert('something went wrong');
     }
